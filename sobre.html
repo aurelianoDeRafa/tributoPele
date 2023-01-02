@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rei Pelé</title>
+    <link rel="stylesheet" href="assets/css/sobre.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div id="header">
+                <nav>
+                <ul>
+                    <a href="sobre.html"><li>Sobre</li></a>
+                    <a href="index.html"><li>O Rei</li></a>
+                    <a href="depoimentos.html"><li>Depoimento</li></a>
+                </ul>
+                </nav>
+                
+            </div>
+        </header>
+
+        <div id="container">
+            <div class="left">
+                <div class="box"></div>
+                <img src="assets/img/Pele-santos.png" alt="">
+            </div>
+            <div class="right">
+                <div class="box-text">
+                    <p>Edson Arantes do Nascimento, mais conhecido como Pelé, foi um futebolista brasileiro 
+                        que atuou como atacante. Descrito como o Rei do Futebol, é amplamente considerado como
+                         o maior atleta de todos os tempos. Em 2000, foi eleito Jogador do século pela federação
+                          internacional de história e estatística do futebol (IFFHS) e foi um dos dois vencedores 
+                          conjuntos do prêmio Melhor jogador do século da FIFA.  De acordo com a IFFHS,
+                           Pelé é o segundo maior goleador da história do futebol em jogos oficiais, marcando
+                            765 gols em 812 partidas, e no total 1282 gols em 1363 jogos que incluem amistosos
+                             não oficiais, um recorde mundial do Guinness. Durante sua carreira, chegou a ser
+                              durante um período o atleta mais bem pago do mundo.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="linha"></div>
+
+    <div id="sobre">
+        <div class="container">
+            <div class="left">
+                <img src="assets/img/pele-sobre.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="club">
+                    <img src="assets/img/logo-brasil.png" alt="">
+                    
+                </div>
+                <div class="frase">
+                    <p>O sucesso não acontece por acaso. É trabalho duro, perseverança, aprendizado,
+                         estudo, sacrifício e, acima de tudo, amor pelo que você está fazendo ou aprendendo
+                          a fazer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="premios">
+        <div class="title">
+            <span></span>
+           <h2>Competições Contistadas</h2> 
+        </div>
+
+        <div class="area-slider">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="box-slider">
+                        <span>Santos</span>  <br>
+                            6x Campeonato Brasileiro Série A: 1961, 1962, 1963, 1964, 1965, 1968 <br>
+                            1x Supercopa Sul-Americana: 1968 <br>
+                            2x Copa Libertadores da América: 1962, 1963 <br>
+                            2x Copa Intercontinental: 1962, 1963 <br>
+                            1x Recopa dos Campeões Intercontinentais: 1968 <br>
+                            10x Campeonato Paulista: 1958, 1960, 1961, 1962, 1964, 1965, 1967, 1968, 1969, 1973 <br>
+                            4x Torneio Rio-São Paulo: 1959, 1963, 1964, 1966 <br>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box-slider">
+                        <span>Seleção Brasileira</span>  <br>
+                        3x Copa do Mundo: 1958, 1962, 1970 <br>
+                        1x Taça do Atlântico: 1960 <br>
+                        2x Copa Roca: 1957, 1963 <br>
+                        3x Taça Oswaldo Cruz: 1958, 1962, 1968 <br>
+                        1x Taça Bernardo O'Higgins: 1959
+                    </div>
+                </div>
+                <div class="swiper-slide"> <div class="box-slider">
+                    <span> New York Cosmos</span>  <br>
+                            1x North American Soccer League: 1977
+                </div></div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+               
+            </div>
+        </div>
+
+    </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <SCript>
+    const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 100,
+        // pagination: {
+        //     el: '.swiper-pagination',
+        //     type: 'bullets',
+        // },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+  </SCript>
+</body>
+</html>
